@@ -17,7 +17,8 @@ This module uses datastax <a href="https://github.com/datastax/nodejs-driver">ca
 
 
 ```js
-var models = require('express-cassandra');
+var expresscassandra = require('express-cassandra');
+var models = expresscassandra();
 
 //Tell express-cassandra to use the models-directory, and
 //use bind() to load the models using cassandra configurations.
